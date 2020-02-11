@@ -14,6 +14,11 @@ spring:
   cloud:
     consul:
       port: 8500
+  rabbitmq:  
+    host: 192.168.1.7
+    port: 5672
+    username: admin
+    password: 520131    
 mybatis:
   mapper-locations: classpath:mapping/Mapper*.xml
   type-aliases-package: com.member.bootstrap.model
