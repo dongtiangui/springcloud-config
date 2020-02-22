@@ -7,4 +7,14 @@ spring:
       host: 192.168.1.7
       port: 5672
       username: admin
-      password: 520131    
+      password: 520131
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch_apple
+      cluster-nodes: 127.0.0.1:9300 #9300java的客户端
+      spring:
+        data:
+          elasticsearch:
+            properties:
+              path:
+                home: /data/project/target/elastic:    
