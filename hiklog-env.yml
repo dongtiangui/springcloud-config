@@ -11,13 +11,7 @@ spring:
   data:
     elasticsearch:
       cluster-name: elasticsearch
-      cluster-nodes: 127.0.0.1:9300 #9300java的客户端
-      spring:
-        data:
-          elasticsearch:
-            properties:
-              path:
-                home: /usr/local/var/lib/elasticsearch
+      cluster-nodes: localhost:9300 #9300java的客户端
   redis:
     host: localhost
     port: 6379
