@@ -10,7 +10,7 @@ spring:
       password: 520131
   data:
     elasticsearch:
-      cluster-name: elasticsearch_apple
+      cluster-name: elasticsearch
       cluster-nodes: 127.0.0.1:9300 #9300java的客户端
       spring:
         data:
