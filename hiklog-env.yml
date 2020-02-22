@@ -3,5 +3,3 @@ server:
 spring:
   application:
     name: hiklog
-logging:
-  level: info
