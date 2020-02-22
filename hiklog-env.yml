@@ -17,4 +17,4 @@ spring:
           elasticsearch:
             properties:
               path:
-                home: /data/project/target/elastic:    
+                home: /data/project/target/elastic   
