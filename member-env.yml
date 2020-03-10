@@ -8,7 +8,7 @@ spring:
     name: member
   datasource:
     username: root
-    password: MyNewPass4!
+    password: 520131D.
     url: jdbc:mysql://localhost:3306/life_member?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
